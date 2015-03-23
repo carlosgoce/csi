@@ -1,0 +1,4 @@
+[run]
+branch = True
+include = csi/*
+omit = csi/__about__.py

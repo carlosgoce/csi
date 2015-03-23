@@ -1,0 +1,7 @@
+__title__ = 'csi'
+__summary__ = 'A testing framework created for fun'
+__version__ = '0.0.0-dev'
+__license__ = 'BSD 3-Clause License'
+__uri__ = 'https://github.com/carlosgoce/csi'
+__author__ = 'Carlos Goce'
+__email__ = 'carlosgoce@gmail.com'

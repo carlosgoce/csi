@@ -9,7 +9,7 @@ Expected Functionality
 ----------------------
 
 
-.. code:: shell-session
+.. code:: python
 
     class ExampleScene(Scene):
         @subject()

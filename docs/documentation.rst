@@ -26,3 +26,16 @@ Expected Functionality
         # Nested scenes (contexts) should be possible
         class NestedScene(Scene):
             pass
+
+    # Alternative
+
+    import csi
+
+    @csi.Scene()
+    def it_should_be_true():
+        csi.investigate(True).should().be(True)
+
+        # Nested
+        @csi.Scene()
+        def it_can_nest_scenes():
+            pass
